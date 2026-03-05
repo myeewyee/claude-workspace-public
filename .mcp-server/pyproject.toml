@@ -1,0 +1,8 @@
+[project]
+name = "vault-intuition-mcp"
+version = "1.0.0"
+description = "MCP server for deep Obsidian vault understanding"
+requires-python = ">=3.12"
+
+[tool.setuptools]
+packages = ["src"]

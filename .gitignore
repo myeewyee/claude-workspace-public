@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+
+# MCP server runtime data (large, regenerated on server start)
+.mcp-server/data/
+
+# Windows artifacts
+nul
+Thumbs.db
+desktop.ini
+
+# Temp/backup files
+*.tmp
+*.bak
+
+# Image files in temp (source inputs, not outputs)
+outputs/temp/*.png
+outputs/temp/*.jpg
+outputs/temp/*.jpeg
+
+# Downloaded media (digest skill audio/thumbnails)
+outputs/.media/
+
+# Digest intermediate cache (metadata, captions, Whisper segments)
+outputs/.cache/
+*.mp3
+*.vsix
+
+# Task engine lock file
+.task-engine.lock
+
+# Export metadata
+.export-meta.json
+
+# Script data caches
+.scripts/*_data/
+.scripts/archive/

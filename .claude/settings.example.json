@@ -1,0 +1,25 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear|compact",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"<your-workspace-path>/.claude/skills/using-skills/SKILL.md\""
+          }
+        ]
+      }
+    ],
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"<your-workspace-path>/.claude/hooks/per-prompt-rules.md\""
+          }
+        ]
+      }
+    ]
+  }
+}

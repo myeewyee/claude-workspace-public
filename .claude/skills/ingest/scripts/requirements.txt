@@ -1,0 +1,3 @@
+# Ingest skill dependencies
+pymupdf              # PDF page extraction (import fitz)
+Pillow               # Image processing for OCR

@@ -1,0 +1,12 @@
+# Digest skill dependencies
+trafilatura          # Blog/article content extraction
+markdownify          # HTML to markdown conversion
+groq                 # Whisper transcription via Groq API (full mode)
+youtube-transcript-api  # YouTube auto-captions (quick mode)
+requests             # Speaker diarization API calls (full mode)
+
+# System dependencies (install separately):
+# yt-dlp - YouTube audio download for Whisper transcription
+#   pip install yt-dlp   OR   brew install yt-dlp
+# ffmpeg - Audio processing
+#   brew install ffmpeg   OR   winget install Gyan.FFmpeg   OR   apt install ffmpeg
